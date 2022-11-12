@@ -1,0 +1,19 @@
+1. Inicio
+2. costoKilovatio, d[0-n]
+3. kilovatioNumero, d[0-n]
+4. costoPlanilla, d[0-n]
+5. edad, i[0-n]
+6. descuento, d[0-n] <--0.10
+7. <<"Ingrese el costo de kiv/hora"
+8. >> costoKilovatio
+9. <<"Ingrese el número de de kilovatios consumidos en el mes"
+10.>> kilovatioNumero
+11.<<"Ingrese la edad del usuario"
+12.>> edad
+13.costoPlanilla <--costoKilovatio * kilovatioNumero
+14.Si edad > 65 entonces
+15. valorDescuento <--costoPlanilla * descuento
+16. costoPlanilla <--costoPlanilla - valorDescuento
+17.Fin Si
+18.<<"El valor a cancelar es:" + costoPlanilla
+19.Fin

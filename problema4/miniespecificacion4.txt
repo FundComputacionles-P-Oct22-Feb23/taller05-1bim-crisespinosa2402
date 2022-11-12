@@ -1,0 +1,28 @@
+1. Inicio
+2. descuento, d[0-n]
+3. dias, i[0-n]
+4. precioDiario, d[0-n]
+5. subtotalPagar, d[0-n]
+6. totalPagar, d[0-n]
+7. <<"Ingrese el número de días que se hospedo¨
+8. >>dias
+9. <<"Ingrese el precio diario de la habitación"
+10.>>precioDiario
+11.subtotalPagar <-- precioDiario * dias
+12.Si dias > 5 entonces
+13. descuento <-- subtotal * 0.10
+14. totalPagar <-- subtotal - descuento
+15. De lo contrario
+16.  Si dias > 10 entonces
+17.  descuento <-- subtotal * 0.15
+18.  totalPagar <-- subtotal - descuento
+19.  De lo contrario
+20.  Si dias > 15 entonces
+21.  descuento <-- subtotal * 0.20
+22.  totalPagar <-- subtotal - descuento
+23. Fin Si
+24.Fin Si
+25.<<"El subtotal es:" + subtotal
+26.<<"El descuento es:" + descuento
+27.<<"El total a pagar es:" + totalPagar
+28.Fin  

@@ -1,0 +1,11 @@
+1. Inicio
+2. gradosCentigrados, d[0-n]
+3. gradosFarenheit, d[n,n]
+4. gradosKelvin, d[0-n]
+5. <<"Ingrese la temperatura en grados centigrados"
+6. >>gradosCentigrados
+7.Si gradosCentigrados < 100 or gradosCentigrados == 100
+8. gradosFarenheit <-- 9 / 5 * gradosCentigrados + 32
+9. gradosKelvin <-- gradosCentigrados + 273.15
+10.Fin Si
+11.Fin

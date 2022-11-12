@@ -1,0 +1,16 @@
+1. Inicio
+2. costoPedido, d[o-n]
+3. cantidad, d[o-n]
+4. precioUnitario, d[o-n]
+5. descuento, d[0-n] <--0.15
+6. <<"Ingrese la cantidad del pedido"
+7. >>cantidad
+8. <<""Ingrese el precio unitario del artículo"
+9. >>precioUnitario
+10.costoPedido <--cantidad * precioUnitario
+11.Si cantidad > 50 entonces
+12. valorDescuento <--costoPedido * descuento 
+13. costoPedido <--costoPedido - valorDescuento
+14.Fin Si
+15.<<"El costo del pedido es:" + costoPedido
+16.Fin
